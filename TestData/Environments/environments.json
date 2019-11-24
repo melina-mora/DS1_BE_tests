@@ -1,0 +1,22 @@
+﻿{
+	"dev": {
+		"ds": "https://uscldcnxapid01.azure-api.net",
+		"apim": "https://uscldcnxapmd01.azure-api.net"
+	},
+	"dev2": {
+		"ds": "https://uscldcnxapmsa01.azure-api.net",
+		"apim": "https://uscldcnxapmsa01.azure-api.net"
+	},
+	"qa": {
+		"ds": "https://uscldcnxapiq01.azurewebsites.net",
+		"apim": "https://qa.cemexgo.com/api"
+	},
+	"preprod": {
+		"ds": "https://uscldcnxapipp01.azurewebsites.net",
+		"apim": "https://uscldcnxapmpp01.azure-api.net"
+	},
+	"prod": {
+		"ds": "https://uscldcnxapip01.azurewebsites.net",
+		"apim": "https://cemex.azure-api.net"
+	}
+}

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DS1_backend_tests" GeneratedClassName="Tests">
+  <Profiles />
+  <Settings>
+    <Setting Name="Environment" Type="TestData.Environments.Environments" Scope="User">
+      <Value Profile="(Default)">DEV</Value>
+    </Setting>
+    <Setting Name="EnvironmentType" Type="TestData.Environments.EnvironmentTypes" Scope="User">
+      <Value Profile="(Default)">APIM</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

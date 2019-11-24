@@ -1,0 +1,44 @@
+﻿{
+	"crm": {
+		"user": "S1.CustInf01.MX@mailinator.com",
+		"password": "TestS1cxg0",
+		"country": "MX",
+		"legalEntity": {
+			"legalEntityId": "3991.1"
+		},
+		"address": {
+			"opportunityDesc": "",
+			"taxable": {
+				"taxableId": ""
+			},
+			"addressRequest": {
+				"additionalDetails": "Test Address",
+				"cityDesc": "Hermosillo",
+				"regionId": 24,
+				"buildingCode": "S",
+				"crossStreetName1": "Jose Maria Valencia",
+				"crossStreetName2": "Emeterio Ochoa",
+				"district": "Palo Verde",
+				"differentCity": "Palo Verde",
+				"countryCode": "MX",
+				"streetName": "Calle Ramon Noriega",
+				"domicileNum": "76",
+				"postalCode": "83280",
+				"geoPlace": {
+					"geoPlaceType": "P",
+					"latitude": "29.060700",
+					"longitude": "-111.00000"
+				},
+				"settlementDesc": "Hermosillo"
+			}
+		}
+	},
+	"bso": {
+		"user": "s1.salesrep01.mx@mailinator.com",
+		"password": "TestS1cxg0",
+		"country": "MX",
+		"legalEntity": {
+			"legalEntityId": "3991.1"
+		}
+	}
+}
