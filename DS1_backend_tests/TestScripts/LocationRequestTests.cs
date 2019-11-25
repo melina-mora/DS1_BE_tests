@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using TestData.Environments;
 using TestObjects.Common.Users;
+using TestObjects.Opportunity;
 
 namespace TestScripts
 {
@@ -16,7 +17,12 @@ namespace TestScripts
                 .SetUserType(userType)
                 .Build();
 
-            var response = customer.Login();
+            var jobsiteRequest = new OpportunityBuilder()
+                .SetUser(customer)
+                .SetOpportunityCode("R")
+                .Build();
+
+            jobsiteRequest.CreateNew();
         }
     }
 }

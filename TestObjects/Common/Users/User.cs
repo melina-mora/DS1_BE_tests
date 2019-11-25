@@ -21,6 +21,7 @@ namespace TestObjects.Common.Users
             LegalEntity = legalEntity;
 
             Initialize(baseUrl);
+            Login();
         }
 
         public HttpResponseMessage Login()
